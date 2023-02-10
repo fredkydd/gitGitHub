@@ -6,12 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="public/styles/style.css" />
     <!-- <script defer src="public/scripts/script.js"></script> -->
+    <link
+      rel="shortcut icon"
+      href="assets/github-mark-white.svg"
+      type="image/x-icon"
+    />
 
     <title>Git Github && version control</title>
   </head>
   <body>
-    <h1>Git & GitHub Crash Course</h1>
-    <p>Because the basics're important!</p>
+    <main>
+      <picture>
+        <source srcset="assets/github-mark-white.png" type="image/png" />
+        <img src="assets/github-mark-white.png" alt="Github Logo" />
+      </picture>
+      <h1>Git & GitHub Crash Course</h1>
+      <p>Because the basics're important!</p>
+    </main>
+
     <!-- <script async src="public/scripts/script.js"></script> -->
   </body>
 </html>
@@ -37,6 +49,7 @@
 
 <!-- ? git log show log(s)  -->
 <!-- shows our commit(s) -->
+<!-- output a chronologically ordered list of commits -->
 
 <!-- TODO 'each time' after modify <the file> you've to use git add <modifiedFileName> then add git commit -m 'blah blah' -->
 <!-- ? HEAD ->main(branch name) HEAD always shows your latest and current commit-->
@@ -58,4 +71,5 @@
 
 <!-- ? git reset --hard ID -->
 <!-- undo changes by deleting all commits since ID -->
+<!-- undo commit(s) up to commit ID by deleting commit(s) -->
 <!-- you have 6 commits && added git reset --hard ID 4. Okay now your ID5 && ID6 will be deleted.Remaining commits're  ID1 ID2  ID3 ID4 -->
