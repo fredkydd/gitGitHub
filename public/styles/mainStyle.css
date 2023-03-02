@@ -19,7 +19,7 @@ main {
   row-gap: 1rem;
   height: 50dvh;
   place-items: center;
-  background: mediumspringgreen;
+  background: antiquewhite;
   border-radius: 5px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
   padding: 1rem;
