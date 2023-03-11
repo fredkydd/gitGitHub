@@ -41,6 +41,7 @@
 
 <!-- TODO Working with Commits ( Code Snapshots ) -->
 <!-- ? git add creates an initial snapshot -->
+<!-- ?use git add <fileName> after modify the file -->
 <!-- stage changes for the next commit -->
 <!-- git add <fileName> <anotherFileName> -->
 <!-- git add <fileURL with name> <anotherFileURL with anotherFileName> <anotherFileURL with anotherFileName> -->
@@ -127,6 +128,32 @@
 <!-- TODO pulling repository from remote || GitHub -->
 <!-- ? git pull -->
 <!-- use it on your main branch -->
-<!-- we created readme.ms on the remote github and pull it via git pull to get updated codes -->
+<!-- we created readme.md on the remote github and pull it via git pull to get updated codes -->
 
 <!-- TODO .md means markdownlist -->
+
+<!-- TODO to download others' repository we use git clone <repositoryLink.git> -->
+<!-- ? git clone <repositoryLink.git> -->
+<!-- we need not to git remote add gitName repo.git || git remote set-url gitName userNameRepo.git -->
+<!-- ! we can download the code as .zip || or open it via GitHub Desktop app -->
+<!-- ? git clone <repositoryLink.git> folderName -->
+
+<!-- ! git remote command lists all the connetions -->
+<!-- ? git remote commands shows us the repo's gitName -->
+<!-- ? git remote get-url other'sRepoLink.git shows us the repo url -->
+<!-- !  we can't use git set-url gitName userNameLink.git because we are not owner of the GitHub account -->
+<!-- we modify some lines of code && git add && git commit && to push it via git push command , an error will be occured tells us you ain't authorized -->
+<!-- ! we can push after the owener allows us to collaborate it -->
+<!-- if we want to push && collaborate we use other ways -->
+<!-- ? using GitHub issuse section -->
+<!-- add title and use markdown lang -->
+<!-- 
+  ```css
+  body {
+    display: grid;
+  }
+  ``` 
+-->
+<!-- TODO to allow the users to edit && push their code to my repo , i've to add people on collaborations section from GitHub's Repo Setting -->
+<!-- ! we've to use branch protection to make sure that collaborations can't push the main branch -->
+<!-- ! repo setting > branches > branch Name (gitGitHub) > require a pull request before merging  + Require approvals -->
